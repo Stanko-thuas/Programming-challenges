@@ -1,0 +1,89 @@
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+ 
+html{
+	font-family: 'DM Mono', monospace;
+
+}
+
+body{
+	background-color:#222b32;
+	display: flex;
+	flex-direction: column;
+	color:#b4ad93;
+	font-size: 22px;
+
+}
+
+.grid-container{
+	background-color:#1d2228 ;
+	padding-top:10px;
+	display:grid;
+	position: relative;
+	height: 200px;
+	grid-template-columns: repeat(1,2fr);
+}
+
+.logo{
+
+}
+
+.model{
+	text-align: end;
+	font-size: 30px;
+	width: 97%;
+	position: relative;
+	bottom: 120px;
+
+
+}
+
+.welcome{
+	padding-bottom: 50px;
+	text-align: center	;
+	font-size: 30px;
+	
+
+}
+
+.counters{
+	align-self: center;
+	display:grid;
+	width: 65%;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap:10px;
+	border:solid;
+	margin-bottom: 60px;
+	
+}
+
+.counters2{
+	align-self: center;
+	width: 55%;
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 120px;
+	border:solid;
+	margin-bottom: 60px;
+}
+
+.counters3{	
+	align-self: center;
+	width:65%;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap:10px;
+	border:solid;
+	align-content: space-around;
+}
+
+.name{
+	text-align: center;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+
